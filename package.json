@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "main": "server.js",
     "scripts": {
-      "start": "node server/server.js",
-      "heroku-postbuild": "npm run build:client"
+      "start": "node Server/server.js",
+  "heroku-postbuild": "npm install --prefix Client && npm run build --prefix Client"
     },
   
   "author": "",
