@@ -6,7 +6,7 @@
     "scripts": {
     "start": "node Server/server.js",
     "build": "npm run build:client && npm run build:server",
-    "build:client": "cd Client && npm run build",
+    "build:client": "cd client && npm run build",
     "build:server": "cd Server && npm run build"
   },
   
