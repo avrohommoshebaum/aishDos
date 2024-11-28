@@ -1,4 +1,8 @@
 {
+
+  "engines": {
+  "node": "20.x"
+},
     "scripts": {
     "start": "node Server/server.js",
     "build": "npm run build:client && npm run build:server",
